@@ -16,7 +16,7 @@ VALUES
     (
         UUID(),
         'admin',
-        '4acb4bc224acbbe3c2bfdcaa39a4324e',
+        '$2a$12$W4DGxBD/pOde3X05GXDYUOTPDqpcs2Vrjz2slVXD2NuoFRQKn5ryW',
         'Administrator',
         'administrator@mail.com',
         '08872222',
@@ -47,7 +47,7 @@ VALUES
     (
         UUID(),
         'user',
-        'f67c683f0f3e98cb9dd5582e8cbbcd04',
+        '$2a$10$W7QhRBpYEDPiHeyYsaGIouy1DLDzq4ksxPPkl/OmRkIs0f9P46TtW',
         'Requestor',
         'requestor@mail.com',
         '08898333',

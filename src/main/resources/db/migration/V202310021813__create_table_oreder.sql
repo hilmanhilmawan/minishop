@@ -8,9 +8,9 @@ CREATE TABLE `mini_shop`.`order_header`(
     `subtotal` DOUBLE(18,2),
     `payment_type` ENUM('COD') DEFAULT 'COD',
     `status` TINYINT(4),
-    `creator_id` BIGINT(20),
+    `creator_id` VARCHAR(75),
     `creator_time` DATETIME,
-    `modifier_id` BIGINT(20),
+    `modifier_id` VARCHAR(75),
     `modifier_time` DATETIME,
     PRIMARY KEY (`id`)
 );
@@ -22,9 +22,9 @@ CREATE TABLE `mini_shop`.`order_detail`(
     `produk_id` BIGINT(20),
     `harga` DOUBLE(18,2),
     `qty` INT(11),
-    `creator_id` BIGINT(20),
+    `creator_id` VARCHAR(75),
     `creator_time` DATETIME,
-    `modifier_id` BIGINT(20),
+    `modifier_id` VARCHAR(75),
     `modifier_time` DATETIME,
     PRIMARY KEY (`id`)
 );

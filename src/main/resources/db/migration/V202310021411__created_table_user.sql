@@ -8,9 +8,9 @@ CREATE TABLE `mini_shop`.`user_login`(
     `no_handphone` VARCHAR(20),
     `role_id` BIGINT(20),
     `is_deleted` CHAR(1) DEFAULT 'N',
-    `creator_id` BIGINT(20),
+    `creator_id` VARCHAR(75),
     `creator_time` DATETIME,
-    `modifier_id` BIGINT(20),
+    `modifier_id` VARCHAR(75),
     `modifier_time` DATETIME,
     PRIMARY KEY (`id`),
     UNIQUE INDEX `username` (`username`)
