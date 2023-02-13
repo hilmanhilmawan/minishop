@@ -22,9 +22,9 @@ VALUES
         '08872222',
         1,
         'N',
-        1,
+        'admin',
         NOW(),
-        1,
+        'admin',
         NOW()
     ) ;
 
@@ -53,45 +53,9 @@ VALUES
         '08898333',
         2,
         'N',
-        1,
+        'admin',
         NOW(),
-        1,
+        'admin',
         NOW()
     ) ;
 
-
-INSERT INTO `mini_shop`.`user_role` (
-    `ref_id`,
-    `role_name`,
-    `creator_id`,
-    `creator_time`,
-    `modifier_id`,
-    `modifier_time`
-)
-VALUES
-    (
-        UUID(),
-        'Administrator',
-        1,
-        NOW(),
-        1,
-        NOW()
-    ) ;
-
-INSERT INTO `mini_shop`.`user_role` (
-    `ref_id`,
-    `role_name`,
-    `creator_id`,
-    `creator_time`,
-    `modifier_id`,
-    `modifier_time`
-)
-VALUES
-    (
-        UUID(),
-        'User',
-        1,
-        NOW(),
-        1,
-        NOW()
-    ) ;
